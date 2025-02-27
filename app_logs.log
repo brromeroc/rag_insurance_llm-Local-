@@ -1,0 +1,9 @@
+2025-02-26 23:04:10,814 - INFO - Procesando consulta con el modelo.
+2025-02-26 23:04:35,487 - INFO - Latencia del modelo: 24.67 segundos
+2025-02-26 23:04:35,487 - INFO - Precisión estimada: 1.59%
+2025-02-26 23:13:54,114 - INFO - Procesando consulta con el modelo.
+2025-02-26 23:15:46,005 - INFO - Procesando consulta con el modelo.
+2025-02-26 23:16:06,749 - INFO - Latencia del modelo: 20.74 segundos
+2025-02-26 23:17:44,056 - INFO - Procesando consulta con el modelo.
+2025-02-26 23:18:06,217 - INFO - Latencia del modelo: 22.16 segundos
+2025-02-26 23:18:06,218 - INFO - Precisión estimada: 5.45%
