@@ -7,3 +7,18 @@
 2025-02-26 23:17:44,056 - INFO - Procesando consulta con el modelo.
 2025-02-26 23:18:06,217 - INFO - Latencia del modelo: 22.16 segundos
 2025-02-26 23:18:06,218 - INFO - Precisión estimada: 5.45%
+2025-02-26 23:33:04,707 - WARNING - Intento de acceso a página inexistente: 4
+2025-02-26 23:33:13,338 - WARNING - Intento de acceso a página inexistente: 4
+2025-02-26 23:34:13,803 - INFO - Procesando consulta con el modelo.
+2025-02-26 23:34:13,849 - INFO - Procesando consulta con el modelo.
+2025-02-26 23:34:39,208 - INFO - Procesando consulta con el modelo.
+2025-02-26 23:35:16,900 - INFO - Latencia del modelo: 37.69 segundos
+2025-02-26 23:35:16,900 - INFO - Precisión estimada: 2.16%
+2025-02-27 00:20:53,178 - WARNING - Intento de acceso a página inexistente: 4
+2025-02-27 00:22:11,199 - INFO - Procesando consulta con el modelo.
+2025-02-27 00:22:11,243 - INFO - Procesando consulta con el modelo.
+2025-02-27 00:23:01,346 - INFO - Latencia del modelo: 50.10 segundos
+2025-02-27 00:23:01,350 - INFO - Precisión estimada: 4.39%
+2025-02-27 01:21:15,119 - INFO - Procesando consulta con el modelo.
+2025-02-27 01:21:28,444 - INFO - Latencia del modelo: 13.32 segundos
+2025-02-27 01:21:28,445 - INFO - Precisión estimada: 7.32%
