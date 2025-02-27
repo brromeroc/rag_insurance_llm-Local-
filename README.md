@@ -4,3 +4,5 @@ el cual puede obtener descargando ollama (https://ollama.com/search) y  luego ye
 Para instalar las dependencias que utiliza el agente utilice pip install -r requirements.txt.
 
 Para ejecutarlo solomante abra una terminal cmd en la carpeta donde se encuentre rag_insurance_llm.py, y escriba streamlit run rag_insurance_llm.py
+
+Si quiere interacturar con el agente sin instalar nada, puede ingresar al siguiente link: https://handbags-shorter-requesting-midwest.trycloudflare.com/
