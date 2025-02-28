@@ -17,7 +17,9 @@ Desglosado seria de la siguiente manera:
 
 Se calcula la presición ($P$) por medio de la similitud de coseno
 
-$$P = \frac{1}{|\hat{x}|} \\sum_{\hat{x}_j\in \hat{x}}$$
+$$
+P = \frac{1}{|\hat{x}|} \\sum_{\hat{x}_j\in \hat{x}}\\max
+$$
 
 y el Recall se calcula como:
 
