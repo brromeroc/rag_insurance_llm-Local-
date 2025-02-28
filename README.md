@@ -26,5 +26,5 @@ $$
 Finalmente, el ratio se obtiene combinando ambos:
 
 $$
-F1 = \\frac{2 \\times P \\times R}{P + R}
+Ratio = \\frac{2 \\times P \\times R}{P + R}
 $$
