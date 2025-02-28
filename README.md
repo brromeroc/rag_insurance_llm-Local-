@@ -7,4 +7,4 @@ Para ejecutarlo solomante abra una terminal cmd en la carpeta donde se encuentre
 
 Si quiere interacturar con el agente sin instalar nada, puede ingresar al siguiente link: https://gif-improving-discussing-donate.trycloudflare.com/
 
-$$x^2$$
+
