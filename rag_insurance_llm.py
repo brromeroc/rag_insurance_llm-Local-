@@ -1,8 +1,8 @@
 import streamlit as st
 import PyPDF2
-import difflib
 import logging
 import time
+from bert_score import score
 from langchain_community.llms import Ollama
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
@@ -28,6 +28,10 @@ def extraer_texto_pdf_paginas(pdf_file, paginas):
             st.error(f"La página {num+1} no existe en el documento.")
             logging.warning(f"Intento de acceso a página inexistente: {num+1}")
     return texto
+
+def calcular_bert_score(respuesta, ground_truth):
+    P, R, F1 = score([respuesta], [ground_truth], lang="es")
+    return F1.item()
 
 def main():
     st.title("Análisis de PDF con Langchain, Ollama y Streamlit")
@@ -71,7 +75,6 @@ def main():
                 logging.info("Procesando consulta con el modelo.")
 
                 llm = Ollama(model="llama3.2")
-
                 prompt_template = PromptTemplate(
                     input_variables=["contexto", "pregunta"],
                     template="""
@@ -86,7 +89,7 @@ def main():
 
                 chain = LLMChain(llm=llm, prompt=prompt_template)
 
-                #tiempo de ejecución
+                # Tiempo de ejecución
                 start_time = time.time()
                 respuesta = chain.run({"contexto": texto_seleccionado, "pregunta": pregunta})
                 end_time = time.time()
@@ -99,9 +102,9 @@ def main():
                 logging.info(f"Latencia del modelo: {latencia:.2f} segundos")
 
                 if ground_truth:
-                    similitud = difflib.SequenceMatcher(None, respuesta, ground_truth).ratio()
-                    st.write(f"**Precisión estimada (similitud): {similitud*100:.2f}%**")
-                    logging.info(f"Precisión estimada: {similitud*100:.2f}%")
+                    similitud = calcular_bert_score(respuesta, ground_truth)
+                    st.write(f"**Precisión estimada (BERTScore - F1): {similitud*100:.2f}%**")
+                    logging.info(f"Precisión estimada (BERTScore - F1): {similitud*100:.2f}%")
 
 if __name__ == "__main__":
     main()
