@@ -22,3 +22,16 @@
 2025-02-27 01:21:15,119 - INFO - Procesando consulta con el modelo.
 2025-02-27 01:21:28,444 - INFO - Latencia del modelo: 13.32 segundos
 2025-02-27 01:21:28,445 - INFO - Precisión estimada: 7.32%
+2025-02-28 00:15:38,514 - INFO - Procesando consulta con el modelo.
+2025-02-28 00:15:57,351 - INFO - Latencia del modelo: 18.84 segundos
+2025-02-28 00:16:01,236 - INFO - Precisión estimada (BERTScore - F1): 69.66%
+2025-02-28 00:16:02,926 - WARNING - From C:\Users\USUARIO\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-02-28 00:18:42,534 - INFO - Procesando consulta con el modelo.
+2025-02-28 00:18:47,997 - INFO - Latencia del modelo: 5.46 segundos
+2025-02-28 00:18:48,558 - INFO - Precisión estimada (BERTScore - F1): 77.62%
+2025-02-28 23:30:50,336 - INFO - Procesando consulta con el modelo.
+2025-02-28 23:31:09,866 - INFO - Latencia del modelo: 19.53 segundos
+2025-02-28 23:31:19,646 - INFO - Precisión estimada (BERTScore - F1): 67.48%
+2025-02-28 23:31:21,353 - WARNING - From C:\Users\USUARIO\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
