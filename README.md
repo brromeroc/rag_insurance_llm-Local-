@@ -1,6 +1,6 @@
 Bienvenido a rah_insurance_llm, en este repositorio encontrara un agente experto en el documento que se le suministe, esta hecho en python con un modelo local llamado llama3.2 (3B parameters, 2 GB)el cual puede obtener descargando ollama (https://ollama.com/search) y  luego yendo a su cmd y colocando ollama run llama3.2.Para instalar las dependencias que utiliza el agente utilice pip install -r requirements.txt.Para ejecutarlo solomante abra una terminal cmd en la carpeta donde se encuentre rag_insurance_llm.py, y escriba streamlit run rag_insurance_llm.py
 
-Si quiere interacturar con el agente sin instalar nada, puede ingresar al siguiente link: https://ic-dolls-disorder-circulation.trycloudflare.com
+Si quiere interacturar con el agente sin instalar nada, puede ingresar al siguiente link: https://betty-dead-cams-diagram.trycloudflare.com/
 
 **NOTA**: En el archivo PDF de la prueba  se uso la métrica SequenceMatcher para saber que tan  bien lo hacia el modelo, dependiendo de que tantos caracteres se repetian en ambas cadenas
 (la que se daba y la que el LLM generaba), el problema aparecia cuando la respuesta era demasiado larga o se utlizaban sinonimos, por lo que la métrica daba
